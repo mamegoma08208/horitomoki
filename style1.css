@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+.heading-red{
+    color: pink;
+}
+.heading-blue{
+    color: aqua;
+}
+.paragragh{
+    font-weight: bold;
+}
+h1{
+    letter-spacing: 10px;
+    border-bottom: solid 3px yellow;
+}
+.color-red{
+    color: pink;
+}
+.color-blue{
+    color: aqua;
+}
