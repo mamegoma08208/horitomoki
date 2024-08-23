@@ -44,7 +44,7 @@ footer{
 @media screen and (max-width: 768px) {
     .content{
         display: block;
-            width: 100%;
+            width: 90%;
             padding: 10px;
             border: 3px,solid, rgb(238, 204, 204);
             margin: 10px;   
