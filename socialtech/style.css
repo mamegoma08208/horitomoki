@@ -4,7 +4,7 @@ body{
 p{
     font-size: 15px;
 }
-@media screen and(min-width: 768px){
+@media  screen and (max-width:768px) {
     body{
         max-width: 1080px;
         min-width: 960px;
@@ -371,7 +371,7 @@ p{
         float: right;
     }
 }
-@media screen and(max-width: 767px) {
+@media screen and(max-width: 768px) {
     body{
         min-width: 375px;
         margin: 0;
@@ -384,7 +384,7 @@ p{
         padding: 0;
     }
     #nav-sp{
-        background-color: #2701d5;
+        background-color: #2710d5;
         position: absolute;
         left: 0;
         top: 0;
@@ -393,7 +393,7 @@ p{
         display: none;
         z-index: 100;
     }
-    #closs{
+    #close{
         position: absolute;
         top: 20px;
         right: 20px;
@@ -412,11 +412,12 @@ p{
     }
     #nav-sp > a:hover{
         color: #ffffff;
+        text-decoration: underline;
     }
-    #nav-sp >a:active{
+    #nav-sp > a:active{
         color: #ffffff;
     }
-    #nav-sp > .menu{
+    #nav-sp > menu{
         text-decoration: none;
         display: block;
         margin: 0 20px 0 20px;
@@ -434,4 +435,4 @@ p{
     #sns > a{
         margin-right: 30px;
     }
-}
+}    
